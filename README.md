@@ -1,6 +1,7 @@
 # Técnica do AlphaBeta
 
-* Jogo da velha com a técnica do AlphaBeta em java.
+* Jogo da velha com a técnica do AlphaBeta em java. Desenvolvido como uma atividade da universidade
+(Ciência da Computação - UEPB) para a disciplina de Inteligência Artificial.
 
 #imagens
 
