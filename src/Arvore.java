@@ -4,14 +4,14 @@ import java.util.ArrayList;
 
 public class Arvore {
 	
-	/** ATRIBUTOS */
+    /** ATRIBUTOS */
 	
-	private String[] velha = {"?","?","?","?","?","?","?","?","?"};
-	private String tipo = "max";
-	private int custoDeEscolha = 0;
+    private String[] velha = {"?","?","?","?","?","?","?","?","?"};
+    private String tipo = "max";
+    private int custoDeEscolha = 0;
     public ArrayList<Arvore> filhos = new ArrayList<Arvore>();
     
-    /** POLIMORFISMO */
+    /** ENCAPSULAMENTO */
     
     public void setVelha(String[] velha){ this.velha = velha.clone(); }
     public String[] getVelha(){ return this.velha; }
