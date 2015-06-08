@@ -44,8 +44,8 @@ public class Arvore {
         // Ainda sem um vencedor.
         } else { 
         	String[] novaVelha = velha.clone();
-            Arvore filho = null;
-            // Gera os próximos filhos.
+        	Arvore filho = null;
+		// Gera os próximos filhos.
         	for (int i=0; i<novaVelha.length; i++){
         		// Encontrou uma posição vazia, inclui para gerar um novo filho.
 	        	if (novaVelha[i].equals("?")){ 
